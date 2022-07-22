@@ -1,0 +1,5 @@
+let;
+dec bdj = 34;
+rat a  = 90.383;
+whether(a>2.54) show a;
+done;

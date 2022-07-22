@@ -1,0 +1,8 @@
+STACK						INPUT						ACTION
+0					id)*(id+id)$					s5
+0id5					)*(id+id)$					r6	GOTO[0,F]
+0F3					)*(id+id)$					r4	GOTO[0,T]
+0T2					)*(id+id)$					r2	GOTO[0,E]
+0E1					)*(id+id)$					
+
+INVALID SYNTAX

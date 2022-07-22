@@ -1,0 +1,8 @@
+let;
+dec b12 = 34;
+dec c = 4;
+rat _a23 = 90.383;
+dec d = ((((2 + 54/6) + (5 || 3)) && (5!=2))*2);
+whether(_a23>2.54) show a;
+loop (b12!=2) show c;
+done;

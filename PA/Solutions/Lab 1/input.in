@@ -1,0 +1,8 @@
+
+line    : assignment ';'        {;}
+        | exit_command ';'      {exit(EXIT_SUCCESS);}
+        | begin ';'             {;}
+        | print exp ';'         {printf("%d\n", $2);}
+        | line assignment ';'   {;}
+        | line print exp ';'    {printf("%d\n", $3);}
+        | line exit_command ';' {exit(EXIT_SUCCESS);}
